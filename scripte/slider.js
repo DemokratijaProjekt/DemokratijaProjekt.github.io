@@ -5,7 +5,7 @@ pogled[k].style.display = "flex";
 radioBtn[k].checked = "true";
 function idiDesno() {
   console.log("gas");
-  if (k == 3) {
+  if (k == 4) {
     pogled[k].style.display = "none";
     radioBtn[k].checked = "false";
     k = 0;
@@ -24,7 +24,7 @@ function idiLijevo() {
   if (k == 0) {
     pogled[k].style.display = "none";
     radioBtn[k].checked = "false";
-    k = 3;
+    k = 4;
     radioBtn[k].checked = "true";
     pogled[k].style.display = "flex";
   } else {
