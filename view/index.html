@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/style.css">
+    <title>Demokratija</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="lijevo">
+                <h2>OBNOVA ZGRADE</h2>
+                <button onclick="navbar()" style="background-color: none; border: none;"><img src="../slike/menu (2).png" alt="" height="40px"></button>
+            </div>
+            <div class="desno">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#oProjektu">O projektu</a></li>
+                    <li><a href="#Galerija">Galerija</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    
+    <main>
+        <div class="main-background">
+            <div class="container">
+                <div class="main-text">
+                    <h3>SPASI LJUDSKE ŽIVOTE</h3>
+                    <h1>Lorem ipsum dolor sit amet.</h1>
+                    <button class="dalje-btn" onclick="daljeDugme()">Saznaj Više</button>
+                </div>
+            </div>
+        </div>
+        <div class="oTurniru" id="oProjektu">
+            <div class="mstsCsgo">
+                <h2>Header</h2>
+                <br>
+                <p>Nakon što smo upoznati sa ciljem projekta "Ja građanin", razmislili smo o problemima zajednice i shvatili smo da bi
+                najveću dobrobit dovela obnova obrušene zgrade.</p>
+                <br>
+                <p>Našu pažnju najviše je privukla zgrada koja se nalazi u glavnoj ulici u Travniku, smještena je u
+                neposrednoj blizini javnih,ugostiteljskih i vjerskih ustanova, pored kojih dnevno prođe velik
+                broj ljudi.</p>
+                <br>
+                <p>Upravo zbog objekata u čijoj se blizini nalazi ( Lukačka džamija, Vanila kafić, Srednja Muzička
+                škola, vrtić..) ulica u kojoj se zgrada nalazi jako je prometna i svakodnevno pruža opasnost za
+                sve.</p>
+            </div>
+            <img src="../slike/zgradaa.jpg" alt="">
+            <img src="../slike/daaa.jpg" alt="" class="poster">
+            <div class="HorizonCsgo">
+                <div>
+                    <h2>Header</h2>
+                    <br>
+                    <p>Ali pored naše nesvjesnosti o opasnosti nismo svjesni ni dobrobiti koje bi obnova dovela.Obnovom ove zgrade prvenstveno
+                    bismo spriječili opasnost ugrožavanja života svih osoba
+                    koje su svakodnevno primorane proći pored nje.</p>
+                    <br>
+                    <p>Zatim uljepšali bismo i naš grad koji bi sigurno dobio ljepši izgled ali i bolju prometnost,
+                    naravno obnavljanjem zgrade bilo bi izgrađeno nekoliko novih stanova čijim prihodima bi
+                    pomogli i općini Travnika.</p>
+                    <br>
+                    <p>Prilikom obnove dosta radnika bi dobilo posao i zaradilo novac za prehranu porodice.
+                    Naime,realizacija našeg projekta doprinjela bi Travniku ali i samim građanima.</p>
+                </div>
+            </div>
+        </div>
+
+        </div>
+        <div id="Galerija" style="position: relative; z-index:0; background-color: #414141;">
+            <div class="view v1" style="text-align: center; color: #fff;">Naš cilj jeste inicijativa odgovornih osoba.Što više javnog predstavljanja problema,iznošenja opasnosti i slično.Ono što
+            je u našoj mogućnosti osim inicijative jeste učestvovanje na raznim seminarima koji bi podržali naš projekt. Svaka
+            podrška bi mnogo značila razvoju i realizaciji tog projekta.</div>
+            <div class="view v1"><img src="../slike/da.jpg" alt=""></div>
+            <div class="view v2"><img src="../slike/d2a.jpg" alt=""></div>
+            <div class="view v3"><img src="../slike/daaa.jpg" alt=""></div>
+            <div class="view v4"><img src="../slike/horizontalzgrada.jpg" alt=""></div>
+            <div class="navigacija" style="z-index: 10;">
+                <input class="slide" type="radio" name="slide" id="">
+                <input class="slide" type="radio" name="slide" id="">
+                <input class="slide" type="radio" name="slide" id="">
+                <input class="slide" type="radio" name="slide" id="">
+                <input class="slide" type="radio" name="slide" id="">
+            </div>
+            <button class="strelica lijevoo" onclick="idiLijevo()">
+                <svg height="50px" id="Layer_1" style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512"
+                    width="50px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <polygon points="352,128.4 319.7,96 160,256 160,256 160,256 319.7,416 352,383.6 224.7,256 " />
+                </svg>
+                <button class="strelica desnoo" onclick="idiDesno()">
+                    <svg height="50px" id="Layer_1" style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512"
+                        width="50px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <polygon points="160,128.4 192.3,96 352,256 352,256 352,256 192.3,416 160,383.6 287.3,256 " />
+                    </svg>
+                </button>
+        </div>
+    </main>
+    <script src="../scripte/script.js"></script>
+    <script src="../scripte/nav.js"></script>
+    <script src="../scripte/slider.js"></script>
+</body>
+</html>
