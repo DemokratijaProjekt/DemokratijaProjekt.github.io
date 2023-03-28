@@ -250,9 +250,25 @@ nav .desno ul li a:hover {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center;
 }
-
+.Dole{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.Dole button{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 8px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: all 0.3s 0.05s;
+}
+.Dole button:hover{
+    background-color: #fff;
+    color: black;
+}
 .oTurniru img {
     width: 100%;
     height: 550px;
